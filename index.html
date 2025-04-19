@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Global Metal Scraps - Ethical, efficient, and eco-conscious scrap metal solutions for ferrous and non-ferrous metals in Canada, India, and the USA." />
+  <meta name="description" content="Global Metal Scraps - Ethical, efficient, and eco-conscious scrap metal solutions for ferrous and non-ferrous metals." />
   <meta name="keywords" content="scrap metal, ferrous metals, non-ferrous metals, metal recycling, metal exports" />
   <meta name="author" content="Global Metal Scraps" />
   <title>Global Metal Scraps</title>
@@ -17,6 +17,7 @@
       background-color: #f4f7f9;
       color: #333;
     }
+
     header {
       background-color: #004d66;
       padding: 1rem 2rem;
@@ -25,55 +26,66 @@
       justify-content: space-between;
       align-items: center;
     }
+
     nav ul {
       list-style: none;
       display: flex;
       gap: 1rem;
     }
+
     nav a {
       color: #fff;
       text-decoration: none;
       transition: color 0.3s ease;
     }
+
     nav a:hover {
       color: #ffcc00;
     }
+
     .logo {
       font-weight: 800;
       font-size: 1.5rem;
     }
+
     .hero {
-      background: url('images/hero.jpg') center/cover no-repeat;
+      background: url('images/metal-background.jpg') center/cover no-repeat;
       color: #fff;
       text-align: center;
       padding: 6rem 2rem;
       background-blend-mode: overlay;
       background-color: rgba(0, 0, 0, 0.5);
     }
+
     h1, h2 {
       color: #004d66;
     }
+
     section {
       padding: 2rem;
       background-color: #fff;
       margin: 1rem;
       border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
+
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 1rem;
     }
+
     table th, table td {
       border: 1px solid #ddd;
       padding: 0.5rem;
       text-align: left;
     }
+
     table th {
       background-color: #004d66;
       color: white;
     }
+
     form input, form textarea {
       display: block;
       width: 100%;
@@ -82,6 +94,7 @@
       border: 1px solid #ccc;
       border-radius: 5px;
     }
+
     form button {
       padding: 0.75rem 1.5rem;
       background-color: #004d66;
@@ -90,23 +103,11 @@
       border-radius: 5px;
       cursor: pointer;
     }
+
     form button:hover {
       background-color: #006080;
     }
-    .chat-popup {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-    }
-    .chat-popup button {
-      background-color: #ffcc00;
-      color: #004d66;
-      padding: 1rem;
-      border: none;
-      border-radius: 50px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-      cursor: pointer;
-    }
+
     footer {
       background-color: #004d66;
       color: white;
@@ -114,25 +115,12 @@
       padding: 1rem;
       margin-top: 2rem;
     }
+
     .business-hours {
       background-color: #e0f7fa;
       padding: 1rem;
       border-left: 5px solid #004d66;
       margin-top: 2rem;
-    }
-    .social-links {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-    .social-links a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 1.5rem;
-    }
-    .social-links a:hover {
-      color: #ffcc00;
     }
   </style>
 </head>
@@ -147,10 +135,6 @@
         <li><a href="#nonferrous">Non-Ferrous Metals</a></li>
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#blog">Blog/News</a></li>
-        <li><a href="#reviews">Leave a Review</a></li>
       </ul>
     </nav>
   </header>
@@ -167,8 +151,6 @@
       <div class="business-hours">
         <h3>Business Hours</h3>
         <p>Monday – Friday: 8:00 AM – 4:00 PM</p>
-        <p>Civic Holidays: <em>Hours may vary</em></p>
-        <p><small><strong>Note:</strong> To update holiday hours, just modify this section in the HTML.</small></p>
       </div>
     </section>
 
@@ -235,52 +217,10 @@
         <button type="submit">Send Message</button>
       </form>
     </section>
-
-    <section id="testimonials">
-      <h2>Testimonials</h2>
-      <p>"Great experience working with Global Metal Scraps! Fast and reliable services." – John D.</p>
-      <p>"High-quality scrap metal with excellent customer service. Will definitely use them again!" – Sarah W.</p>
-    </section>
-
-    <section id="faq">
-      <h2>Frequently Asked Questions</h2>
-      <ul>
-        <li><strong>What types of metals do you accept?</strong> We accept a wide range of ferrous and non-ferrous metals.</li>
-        <li><strong>How do I get a quote?</strong> Simply contact us with details about the type and quantity of scrap metal you wish to sell.</li>
-        <li><strong>Do you offer international shipping?</strong> Yes, we provide export services to Canada, India, and the USA.</li>
-      </ul>
-    </section>
-
-    <section id="blog">
-      <h2>Blog/News</h2>
-      <p>Stay tuned for updates about the scrap metal industry and our company's growth.</p>
-    </section>
-
-    <section id="reviews">
-      <h2>Leave a Review</h2>
-      <form id="review-form">
-        <label for="reviewer-name">Your Name</label>
-        <input type="text" id="reviewer-name" name="reviewer-name" required />
-
-        <label for="review-text">Your Review</label>
-        <textarea id="review-text" name="review-text" rows="5" required></textarea>
-
-        <button type="submit">Submit Review</button>
-      </form>
-    </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Global Metal Scraps</p>
-    <div class="social-links">
-      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-    </div>
   </footer>
-
-  <div class="chat-popup">
-    <button onclick="alert('Live chat coming soon!')" aria-label="Chat with Us">Chat with Us</button>
-  </div>
 </body>
 </html>
